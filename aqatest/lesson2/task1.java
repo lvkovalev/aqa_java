@@ -1,7 +1,7 @@
-package java.lesson2;
+package aqatest.lesson2;
 
 public class task1 {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         printThreeWords();
     }
 
