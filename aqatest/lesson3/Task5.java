@@ -1,6 +1,6 @@
 package aqatest.lesson3;
 
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         int year = 2012;
 

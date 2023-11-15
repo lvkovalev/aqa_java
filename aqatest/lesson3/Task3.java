@@ -1,6 +1,6 @@
 package aqatest.lesson3;
 
-public class task3 {
+public class Task3 {
     public static void printNumberSign(int number) {
         if (number >= 0) {
             System.out.println("Число " + number + " является положительным");

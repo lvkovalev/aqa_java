@@ -1,11 +1,13 @@
 package aqatest.lesson3;
 
-public class task7 {
+public class Task8 {
     public static void main(String[] args) {
-        int[] array = new int[100];
+        int[] array = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = i + 1;
+            if (array[i] < 6) {
+                array[i] *= 2;
+            }
         }
 
         for (int i = 0; i < array.length; i++) {

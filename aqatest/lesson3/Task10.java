@@ -1,6 +1,6 @@
 package aqatest.lesson3;
 
-public class task11 {
+public class Task10 {
     public static void main(String[] args) {
         int len = 6;
         int initialValue = 3;
