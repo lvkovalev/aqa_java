@@ -1,6 +1,6 @@
 package aqatest.lesson3;
 
-public class task6 {
+public class Task6 {
     public static void main(String[] args) {
         int[] array = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
 

@@ -1,6 +1,6 @@
 package aqatest.lesson3;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         int number = -7;
 

@@ -1,6 +1,6 @@
 package aqatest.lesson2;
 
-public class task2 {
+public class Task2 {
     public static void main(String[] args) {
         checkSumSign();
     }

@@ -1,6 +1,6 @@
 package aqatest.lesson3;
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         int num1 = 6;
         int num2 = 4;
