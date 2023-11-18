@@ -1,4 +1,4 @@
-package aqatest.lesson5;
+package aqatest.lesson5.task1;
 
 public class Bowl {
     private int foodAmount;

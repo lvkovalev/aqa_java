@@ -1,4 +1,6 @@
-package aqatest.lesson5;
+package aqatest.lesson5.task1;
+
+import aqatest.lesson5.task1.Animals;
 
 public class Cat extends Animals {
     private boolean isHungry;
