@@ -8,8 +8,6 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
-        String myString = "Hello world";
-        int myCount = 10;
-        printStringMultipleTimes(myString, myCount);
+        printStringMultipleTimes("Hello world", 10);
     }
 }

@@ -2,19 +2,17 @@ package aqatest.lesson3;
 
 public class Task5 {
     public static void main(String[] args) {
-        int year = 2012;
-
-        boolean result = isLeapYear(year);
+        boolean result = isLeapYear(100);
         System.out.println(result);
     }
 
     public static boolean isLeapYear(int year) {
-        if (year % 400 == 0 || year % 4 == 0) {
+        if (year % 400 == 0) {
             return true;
         } else if (year % 100 == 0) {
             return false;
         } else {
-            return false;
+            return year % 4 == 0;
         }
     }
 }

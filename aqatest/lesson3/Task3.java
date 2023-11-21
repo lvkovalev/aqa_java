@@ -10,7 +10,6 @@ public class Task3 {
     }
 
     public static void main(String[] args) {
-        int myNumber = 1;
-        printNumberSign(myNumber);
+        printNumberSign(1);
     }
 }

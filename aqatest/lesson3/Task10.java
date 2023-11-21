@@ -1,5 +1,7 @@
 package aqatest.lesson3;
 
+import java.util.Arrays;
+
 public class Task10 {
     public static void main(String[] args) {
         int len = 6;
@@ -7,9 +9,7 @@ public class Task10 {
 
         int[] result = createArray(len, initialValue);
 
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + " ");
-        }
+        System.out.println(Arrays.toString((result)));
     }
 
     public static int[] createArray(int len, int initialValue) {
