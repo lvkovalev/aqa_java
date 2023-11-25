@@ -2,13 +2,13 @@ package aqatest.lesson8;
 
 import java.util.*;
 
-public class WordUnic {
+public class WordUnique {
     public static void main(String[] args) {
-        String[] words = {"apple", "banana", "orange", "apple", "grape", "banana", "kiwi", "orange", "mango", "apple"};
+        String[] words = {"telephone", "book", "sandwich", "telephone", "map", "book", "human", "sandwich", "car", "telephone"};
 
         Set<String> uniqueWords = new HashSet<>(Arrays.asList(words));
 
-        System.out.println("Уникальные слова:");
+        System.out.println("Unique words:");
         for (String word : uniqueWords) {
             System.out.println(word);
         }
@@ -18,7 +18,7 @@ public class WordUnic {
             wordCountMap.put(word, wordCountMap.getOrDefault(word, 0) + 1);
         }
 
-        System.out.println("Количество повторений слов:");
+        System.out.println("Number of word repetitions:");
         for (Map.Entry<String, Integer> entry : wordCountMap.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
