@@ -2,9 +2,8 @@ package aqatest.lesson3;
 
 public class Task4 {
     public static void main(String[] args) {
-        int number = -7;
 
-        boolean result = isNegative(number);
+        boolean result = isNegative(-7);
         System.out.println(result);
     }
 
