@@ -1,7 +1,5 @@
 package aqatest.lesson5.task1;
 
-import aqatest.lesson5.task1.Animals;
-
 public class Dog extends Animals {
     public Dog(String name) {
         super(name, 500, 10);

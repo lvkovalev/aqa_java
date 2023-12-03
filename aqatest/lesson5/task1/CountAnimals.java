@@ -22,7 +22,9 @@ public class CountAnimals {
         };
 
         for (Cat currentCat : cats) {
-            currentCat.eat(bowl.getFoodAmount());
+            if (bowl.decreaseFood(10)) {
+                currentCat.eat(10);
+            }
         }
 
         System.out.println("Number of animals: " + Animals.getAnimalCount());
