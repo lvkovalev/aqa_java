@@ -16,5 +16,10 @@ public class EvenNumber {
         }
 
         System.out.println("Количество четных чисел: " + count);
+
+        System.out.println("Сгенерированные числа:");
+        for (int number : numbers) {
+            System.out.println(number);
+        }
     }
 }
