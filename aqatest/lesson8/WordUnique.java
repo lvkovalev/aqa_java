@@ -6,11 +6,22 @@ public class WordUnique {
     public static void main(String[] args) {
         String[] words = {"telephone", "book", "sandwich", "telephone", "map", "book", "human", "sandwich", "car", "telephone"};
 
-        Set<String> uniqueWords = new HashSet<>(Arrays.asList(words));
+        Set<String> uniqueWords = new HashSet<>();
+        Set<String> duplicateWords = new HashSet<>();
+
+        for (String word : words) {
+            if (uniqueWords.contains(word)) {
+                duplicateWords.add(word);
+            } else {
+                uniqueWords.add(word);
+            }
+        }
 
         System.out.println("Unique words:");
         for (String word : uniqueWords) {
-            System.out.println(word);
+            if (!duplicateWords.contains(word)) {
+                System.out.println(word);
+            }
         }
 
         Map<String, Integer> wordCountMap = new HashMap<>();
